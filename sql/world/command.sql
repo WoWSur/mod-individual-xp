@@ -1,9 +1,9 @@
 DELETE FROM `command` WHERE name IN ('xp', 'xp set', 'xp view', 'xp default', 'xp enable', 'xp disable');
 
 INSERT INTO `command` (`name`, `security`, `help`) VALUES 
-('xp', 0, 'Syntax: .xp $subcommand\nType .help xp to see a list of subcommands\nor .help xp $subcommand to see info on the subcommand.'),
-('xp set', 0, 'Syntax: .xp set $rate\nSet your custom XP rate.'),
-('xp view', 0, 'Syntax: .xp view\nView your current XP rate.'),
-('xp default', 0, 'Syntax: .xp default\nSet your custom XP rate to the default value'),
-('xp enable', 0, 'Syntax: .xp enable\nEnable the custom XP rate.'),
-('xp disable', 0, 'Syntax: .xp disable\nDisable the custom XP rate.');
+('xp', 0, 'Sintaxis: .xp $subcomando\nEscribe .help xp para ver una lista de subcomandos\no .help xp $subcomando para ver ayuda para ese subcomando.'),
+('xp set', 0, 'Sintaxis: .xp set $rate\nEstablece tu rate de experiencia variable.'),
+('xp view', 0, 'Sintaxis: .xp view\nVer tu rate actual de experiencia variable.'),
+('xp default', 0, 'Sintaxis: .xp default\nEstablece tu rate de experiencia al valor por defecto.'),
+('xp enable', 0, 'Sintaxis: .xp enable\nHabilita la experiencia variable.'),
+('xp disable', 0, 'Sintaxis: .xp disable\nDeshabilita la ganancia de experiencia.');

@@ -12,7 +12,7 @@ IndividualXp.Enabled = 1
 #        Description: Announce the IndividualXP Module at logon.
 #        Default:     IndividualXp.Announce   = 1
 #
-IndividualXp.Announce = 1
+IndividualXp.Announce = 0
 
 #
 #    MaxXPRate 
@@ -22,5 +22,5 @@ IndividualXp.Announce = 1
 #        Description: This is the default rate players start with.
 #        Default:     Default  = 1
 #
-MaxXPRate = 10
+MaxXPRate = 8
 DefaultXPRate = 1
