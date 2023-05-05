@@ -44,6 +44,7 @@ public:
 
     void OnLogin(Player* player)
     {
+        ChatHandler(player->GetSession()).PSendSysMessage("[Experiencia Variable] |cffffffffUsa el comando |cff4CFF00.xp set RATE |cffffffffpara elegir tus rates de experiencia!");
         // Announce Module
         if (IndividualXpEnabled & IndividualXpAnnounceModule)
         {
