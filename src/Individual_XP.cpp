@@ -89,7 +89,7 @@ public:
         }
     }
 
-    void OnGiveXP(Player* p, uint32& amount, Unit* /*victim*/) override
+    void OnGiveXP(Player* p, uint32& amount, Unit* /*victim*/, uint8 /*xpSource*/) override
     {
         if (IndividualXpEnabled) {
             if (PlayerXpRate* data = p->CustomData.Get<PlayerXpRate>("Individual_XP"))
